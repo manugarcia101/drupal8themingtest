@@ -929,7 +929,7 @@ ul.simple-post-list .post-meta {
 }
 
 .navbar-search .search-icons a {
-  position: absolute;
+  /*position: absolute;*/
   right: 0;
 }
 
@@ -957,7 +957,7 @@ ul.simple-post-list .post-meta {
 }
 
 .navbar-search form {
-  position: absolute;
+  /*position: absolute;*/
   right: 50px;
   top: 4px;
   width: 100%;

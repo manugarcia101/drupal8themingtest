@@ -45,7 +45,7 @@
  * @ingroup themeable
  */
 #}
-<header class="header" role="banner">
+<header class="header sticky" role="banner">
 	<div class="header-top">
 		<div class="container">
 			{{ page.header_top }}
@@ -53,6 +53,7 @@
 	</div>
 	<div class="header-nav container">
 		{{ page.header }}
+		{{ page.primary_menu }}
 		<!--<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main">
 				<i class="fa fa-bars"></i>
@@ -85,7 +86,7 @@
 				</div>
 			</div>
 
-		</div>-->
+		</div>
 		<div class="navbar-main navbar-collapse collapse">
 			<ul class="nav nav-pills nav-main">
 				<li><a href="index.html" class="is-active">Home</a></li>
@@ -93,7 +94,7 @@
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
-		</div>
+		</div>-->
 	</div>
 </header>
 <section class="intro" id="section1" data-speed="5" data-type="background" style="background-position: 50% 0px;">
