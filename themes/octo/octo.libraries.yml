@@ -27,3 +27,20 @@ font-awesome:
   css:
     theme:
       vendor/font-awesome/css/font-awesome.min.css: {}
+
+flexslider:
+  version: 2.5.0
+  css:
+    theme:
+      vendor/flexslider/flexslider.css: {}
+  js:
+    vendor/flexslider/jquery.flexslider-min.js: {}
+  dependencies:
+    - core/jquery
+
+scroll-to:
+  version: 2.1.1
+  js:
+    vendor/jquery-scrollTo/jquery.scrollTo.min.js: {}
+  dependencies:
+    - core/jquery

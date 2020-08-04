@@ -4,6 +4,7 @@ description: 'A responsive Drupal 8 theme.'
 core: 8.x
 base theme: false
 regions:
+  title_bar: 'Title Bar'
   header_top: 'Header Top'
   header: 'Header'
   primary_menu: 'Primary menu'
